@@ -1,0 +1,23 @@
+#data-table {
+	display: none;
+}
+.fig0 {
+	background-color: #8e2754;
+	margin: 0 0 0 24px;
+}
+.fig1 {
+	background-color: #8e2754;
+}
+.fig2 {
+	background-color: #8e2754;
+}
+.bar span {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #fff), color-stop(1.0, #e5e5e5));
+	display: block;
+	opacity: 0;
+		
+	-webkit-transition: all 0.2s ease-out;
+}
+.bar:hover span {
+	opacity: 1;
+}
